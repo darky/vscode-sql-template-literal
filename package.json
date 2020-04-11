@@ -1,36 +1,36 @@
 {
-    "name": "vscode-ts-sql-plugin",
-    "displayName": "vscode-ts-sql-plugin",
-    "description": "Syntax highlighting for sql utils of ts-sql-plugin",
-    "version": "0.1.0",
-    "publisher": "darky",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/darky/vscode-ts-sql-plugin.git"
-    },
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "grammars": [
-            {
-                "injectTo": [
-                    "source.js",
-                    "source.js.jsx",
-                    "source.jsx",
-                    "source.ts",
-                    "source.tsx"
-                ],
-                "scopeName": "inline.lit-sql",
-                "path": "./syntaxes/lit-sql.json",
-                "embeddedLanguages": {
-                    "meta.embedded.block.sql": "sql"
-                }
-            }
-        ]
-    }
+  "name": "vscode-ts-sql-plugin",
+  "displayName": "vscode-ts-sql-plugin",
+  "description": "Syntax highlighting for sql utils of ts-sql-plugin",
+  "version": "0.1.0",
+  "publisher": "dark-vlados",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darky/vscode-ts-sql-plugin.git"
+  },
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "inline.lit-sql",
+        "path": "./syntaxes/lit-sql.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.sql": "sql"
+        }
+      }
+    ]
+  }
 }
