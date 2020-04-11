@@ -2,7 +2,7 @@
   "name": "vscode-ts-sql-plugin",
   "displayName": "vscode-ts-sql-plugin",
   "description": "Syntax highlighting for sql utils of ts-sql-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "darky",
   "license": "MIT",
   "repository": {
