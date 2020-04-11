@@ -1,18 +1,9 @@
 # vscode-sql-template-literal
 
-Syntax highlighting for code like:
+Syntax highlighting for utils of [ts-sql-plugin](https://github.com/xialvjun/ts-sql-plugin):
 
 ```js
 const query = sql`SELECT * FROM users`;
-```
-
-## Publishing
-
-May require token, stored in last pass. Go to
-https://forbeslindesay.visualstudio.com/_details/security/tokens if token needs
-regenerating.
-
-```
-npm install -g vsce
-vsce publish
+const rawQuery = sql.raw`SELECT * FROM users`;
+const condQuery = sql`SELECT * FROM users ${sql.cond(!!userId)`where user_id = ${userId}`}`
 ```
